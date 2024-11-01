@@ -1,0 +1,21 @@
+{
+	"tasks": {
+		"dev": "deno run --allow-read --allow-net --allow-env --allow-sys --watch main.ts",
+		"start": "deno run --allow-read --allow-net --allow-env main.ts"
+	},
+	"fmt": {
+		"files": {
+			"include": [
+				"./*",
+				"./*/"
+			]
+		},
+		"options": {
+			"useTabs": true,
+			"lineWidth": 100,
+			"indentWidth": 3,
+			"singleQuote": true,
+			"proseWrap": "always"
+		}
+	}
+}
